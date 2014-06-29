@@ -5,17 +5,12 @@ import com.spengilley.activityfragmentmvp.ui.main.views.DetailsView;
 
 import javax.inject.Inject;
 
-public class DetailsPresenterImpl implements DetailsPresenter {
+public class DetailsPresenterImpl implements DetailsPresenter<DetailsView> {
     private DetailsView view;
 
 
     @Inject
     public DetailsPresenterImpl() {
-    }
-
-
-    public void init(DetailsView view) {
-        this.view = view;
     }
 
     @Override
@@ -27,5 +22,10 @@ public class DetailsPresenterImpl implements DetailsPresenter {
     @Override
     public void doStuffThenFinish() {
         view.finish();
+    }
+
+    @Override
+    public void init(DetailsView view) {
+        this.view=view;
     }
 }
