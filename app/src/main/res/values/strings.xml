@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityFragmentMVP</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="intro_text">This is an intro fragment with a simple button</string>
+    <string name="intro_button_label">Go to details</string>
+    <string name="finish">Finish</string>
+    <string name="get_details">Get Details</string>
+
+</resources>
