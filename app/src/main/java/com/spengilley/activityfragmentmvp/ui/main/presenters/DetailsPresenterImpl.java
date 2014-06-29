@@ -5,7 +5,7 @@ import com.spengilley.activityfragmentmvp.ui.main.views.DetailsView;
 
 import javax.inject.Inject;
 
-public class DetailsPresenterImpl implements DetailsPresenter<DetailsView> {
+public class DetailsPresenterImpl implements DetailsPresenter {
     private DetailsView view;
 
 
