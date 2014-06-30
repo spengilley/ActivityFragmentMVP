@@ -7,5 +7,6 @@
     <string name="intro_button_label">Go to details</string>
     <string name="finish">Finish</string>
     <string name="get_details">Get Details</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
