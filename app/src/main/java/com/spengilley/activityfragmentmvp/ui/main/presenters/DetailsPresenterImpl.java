@@ -13,11 +13,6 @@ public class DetailsPresenterImpl implements DetailsPresenter {
     public DetailsPresenterImpl() {
     }
 
-
-    public void init(DetailsView view) {
-        this.view = view;
-    }
-
     @Override
     public void getDetails() {
         String details = "Details from some database or something";
@@ -27,5 +22,10 @@ public class DetailsPresenterImpl implements DetailsPresenter {
     @Override
     public void doStuffThenFinish() {
         view.finish();
+    }
+
+    @Override
+    public void init(DetailsView view) {
+        this.view=view;
     }
 }
