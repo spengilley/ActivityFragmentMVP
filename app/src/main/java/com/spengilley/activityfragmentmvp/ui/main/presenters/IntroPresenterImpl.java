@@ -13,6 +13,7 @@ public class IntroPresenterImpl implements IntroPresenter {
 
     }
 
+    @Override
     public void init(IntroView view) {
         this.view = view;
     }
