@@ -10,3 +10,5 @@ The scoped object graph is created in the OnCreate() method of any Activity that
  Fragments, by way of the BaseFragment superclass method inject(), inject an instance of themselves into the Activities graph.
 
 
+Featured on<br>
+![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ActivityFragmentMVP-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1535)
