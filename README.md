@@ -11,4 +11,4 @@ The scoped object graph is created in the OnCreate() method of any Activity that
 
 
 Featured on<br>
-![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ActivityFragmentMVP-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1535)
+<a href="https://android-arsenal.com/details/3/1535">![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ActivityFragmentMVP-brightgreen.svg?style=flat)]</a>
