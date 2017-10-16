@@ -1,0 +1,10 @@
+{
+    "name": "stephen/activity-fragment-mvp",
+    "authors": [
+        {
+            "name": "stephen.pengilley",
+            "email": "spengilley@gmail.com"
+        }
+    ],
+    "require": {}
+}
